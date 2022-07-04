@@ -1,0 +1,1 @@
+/*noie.js by github.com/Lama3L9R*/;var noie=function(a,b){try{eval('null??1');if(b)b()}catch(e){a?a():alert('fvk u ie');window.close();while(true){}}};

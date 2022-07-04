@@ -1,0 +1,60 @@
+===================== noie.js =====================
+
+This is a strong IE check script.
+At here IE dosen't just repersent Internet Explorer
+It means all browsers which dont support ES2020+
+
+No support to ES2020+? Then Fvk OFF!
+
+OPENSOURCE UNDER LICENSE: Anti-996
+More details about anti 996 and 996.icu please visit
+
+https://github.com/996icu/996.ICU
+
+Useage:
+
+---------- index.html ----------
+
+  ...SomeCode
+  <head>
+    <script src="noie.js" />
+    <script>;noie();</script>
+--------------------------------
+
+Core function 'noie()' accepts two optional params
+
+  1. ie check failed(is ie) callback
+  2. ie chack passed(not ie) callback
+ 
+Examples:
+
+---------------- index.html -------------------------
+
+  ...SomeCode
+  <head>
+    <script src="noie.js" />
+    <script>;noie(()=>{alert('noie dude')});</script>
+-----------------------------------------------------
+
+---------------- index.html -------------------------
+
+  ...SomeCode
+  <head>
+    <script src="noie.js" />
+    <script>;noie(()=>{alert('noie dude')},
+                  ()=>{alert('welcome!'));</script>
+-----------------------------------------------------
+
+
+---------------- index.html -------------------------
+
+  ...SomeCode
+  <head>
+    <script src="noie.js" />
+    <script>;noie(null,
+                  ()=>{alert('welcome!'));</script>
+-----------------------------------------------------
+
+NOTICE: if 1st param isn't pass or pass a null/undefined
+noie.js will execute its default punishment
+
