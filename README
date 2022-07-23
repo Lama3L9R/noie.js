@@ -1,60 +1,50 @@
 ===================== noie.js =====================
 
-This is a strong IE check script.
-At here IE dosen't just repersent Internet Explorer
-It means all browsers which dont support ES2020+
+This is a ECMAScript Standard checking script
 
-No support to ES2020+? Then Fvk OFF!
+It often be used to checking Internet Explorer or any old browsers
 
 OPENSOURCE UNDER LICENSE: Anti-996
 More details about anti 996 and 996.icu please visit
 
 https://github.com/996icu/996.ICU
 
-Useage:
+Document:
 
----------- index.html ----------
+For default noie function is as same as es6()
+function noie(success, failed)
+  - 1. OPTIONAL: Success callback(Standard is supported by the browser)
+  - 2. OPTIONAL: Failed callback(Standard are not supporting by the browser)
 
-  ...SomeCode
-  <head>
-    <script src="noie.js" />
-    <script>;noie();</script>
---------------------------------
+function es6(success, failed)
+  - 1. OPTIONAL: Success callback(Standard is supported by the browser)
+  - 2. OPTIONAL: Failed callback(Standard are not supporting by the browser)
 
-Core function 'noie()' accepts two optional params
+function es2016(success, failed)
+  - 1. OPTIONAL: Success callback(Standard is supported by the browser)
+  - 2. OPTIONAL: Failed callback(Standard are not supporting by the browser)
 
-  1. ie check failed(is ie) callback
-  2. ie chack passed(not ie) callback
- 
-Examples:
+function es2017(success, failed)
+  - 1. OPTIONAL: Success callback(Standard is supported by the browser)
+  - 2. OPTIONAL: Failed callback(Standard are not supporting by the browser)
 
----------------- index.html -------------------------
+function es2018(success, failed)
+  - 1. OPTIONAL: Success callback(Standard is supported by the browser)
+  - 2. OPTIONAL: Failed callback(Standard are not supporting by the browser)
 
-  ...SomeCode
-  <head>
-    <script src="noie.js" />
-    <script>;noie(()=>{alert('noie dude')});</script>
------------------------------------------------------
+function es2019(success, failed)
+  - 1. OPTIONAL: Success callback(Standard is supported by the browser)
+  - 2. OPTIONAL: Failed callback(Standard are not supporting by the browser)
 
----------------- index.html -------------------------
+function es2020(success, failed)
+  - 1. OPTIONAL: Success callback(Standard is supported by the browser)
+  - 2. OPTIONAL: Failed callback(Standard are not supporting by the browser)
 
-  ...SomeCode
-  <head>
-    <script src="noie.js" />
-    <script>;noie(()=>{alert('noie dude')},
-                  ()=>{alert('welcome!'));</script>
------------------------------------------------------
+function es2021(success, failed)
+  - 1. OPTIONAL: Success callback(Standard is supported by the browser)
+  - 2. OPTIONAL: Failed callback(Standard are not supporting by the browser)
 
-
----------------- index.html -------------------------
-
-  ...SomeCode
-  <head>
-    <script src="noie.js" />
-    <script>;noie(null,
-                  ()=>{alert('welcome!'));</script>
------------------------------------------------------
-
-NOTICE: if 1st param isn't pass or pass a null/undefined
-noie.js will execute its default punishment
-
+function __check(expression, success, failed)
+  - 1. The checking expression needed to be evaluated
+  - 2. OPTIONAL: Success callback(Standard is supported by the browser)
+  - 3. OPTIONAL: Failed callback(Standard are not supporting by the browser)
