@@ -22,38 +22,38 @@ Document:
 
 For default noie function is as same as es6()
 function noie(success, failed)
-  - 1. OPTIONAL: Failed callback(Standard are not supporting by the browser)
+  - 1. OPTIONAL: Failed callback(Standard are not supported by the browser)
   - 2. OPTIONAL: Success callback(Standard is supported by the browser)
 
 function es6(failed, success)
-  - 1. OPTIONAL: Failed callback(Standard are not supporting by the browser)
+  - 1. OPTIONAL: Failed callback(Standard are not supported by the browser)
   - 2. OPTIONAL: Success callback(Standard is supported by the browser)
 
 function es2016(failed, success)
-  - 1. OPTIONAL: Failed callback(Standard are not supporting by the browser)
+  - 1. OPTIONAL: Failed callback(Standard are not supported by the browser)
   - 2. OPTIONAL: Success callback(Standard is supported by the browser)
 
 function es2017(failed, success)
-  - 1. OPTIONAL: Failed callback(Standard are not supporting by the browser)
+  - 1. OPTIONAL: Failed callback(Standard are not supported by the browser)
   - 2. OPTIONAL: Success callback(Standard is supported by the browser)
 
 function es2018(failed, success)
-  - 1. OPTIONAL: Failed callback(Standard are not supporting by the browser)
+  - 1. OPTIONAL: Failed callback(Standard are not supported by the browser)
   - 2. OPTIONAL: Success callback(Standard is supported by the browser)
 
 function es2019(failed, success)
-  - 1. OPTIONAL: Failed callback(Standard are not supporting by the browser)
+  - 1. OPTIONAL: Failed callback(Standard are not supported by the browser)
   - 2. OPTIONAL: Success callback(Standard is supported by the browser)
 
 function es2020(failed, success)
-  - 1. OPTIONAL: Failed callback(Standard are not supporting by the browser)
+  - 1. OPTIONAL: Failed callback(Standard are not supported by the browser)
   - 2. OPTIONAL: Success callback(Standard is supported by the browser)
 
 function es2021(failed, success)
-  - 1. OPTIONAL: Failed callback(Standard are not supporting by the browser)
+  - 1. OPTIONAL: Failed callback(Standard are not supported by the browser)
   - 2. OPTIONAL: Success callback(Standard is supported by the browser)
 
 function __check(expression, failed, success)
-  - 1. The checking expression needed to be evaluated
-  - 2. OPTIONAL: Failed callback(Standard are not supporting by the browser)
+  - 1. The checking expression to be evaluated
+  - 2. OPTIONAL: Failed callback(Standard are not supported by the browser)
   - 3. OPTIONAL: Success callback(Standard is supported by the browser)
