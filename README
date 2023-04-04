@@ -2,7 +2,7 @@
 
 首先这叫minify
 
-然后在readme正文第一行就写明了这不是检测IE浏览器，而是用来检测ECMSScript兼容版本
+然后在readme正文第一行就写明了这不是检测IE浏览器，而是用来检测ECMAScript兼容版本
 
 最后为什么你不贴出来没minify的？
 
