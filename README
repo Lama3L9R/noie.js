@@ -1,3 +1,12 @@
+介于我不认识的某人说我这脚本混淆了没开源，我决定补充一个中文解释说明
+
+首先这叫minify
+
+然后在readme正文第一行就写明了这不是检测IE浏览器，而是用来检测ECMSScript兼容版本
+
+最后为什么你不贴出来没minify的？
+
+因为很简单，我没用esbuild这种工具来minify，我甚至直接在github.dev上编辑的，编辑完了手动删了空格和换行，反正这脚本写完了测一下能用就不动他了，不过也确实该更新ES2022和2023检测了
 ===================== noie.js =====================
 
 This is a ECMAScript Standard checking script
