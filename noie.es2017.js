@@ -1,0 +1,1 @@
+;try{eval('async()=>0;');document["NOIE_PASS"]=1}catch(err){document["NOIE_PASS"]=0};

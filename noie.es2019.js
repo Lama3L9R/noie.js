@@ -1,0 +1,1 @@
+;try{eval('try{}catch{};');document["NOIE_PASS"]=1}catch(err){document["NOIE_PASS"]=0};

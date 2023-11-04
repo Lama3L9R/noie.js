@@ -1,0 +1,1 @@
+;document["NOIE_PASS"]=Boolean([]["findLast"])?1:0
