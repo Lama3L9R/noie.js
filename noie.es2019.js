@@ -1,1 +1,1 @@
-;try{eval('try{}catch{};');document["NOIE_PASS"]=1}catch(err){document["NOIE_PASS"]=0};
+/*github.com/Lama3L9R/noie.js | opensource under license Anti-996*/;try{eval('try{}catch{};');document["NOIE_PASS"]=1}catch(err){document["NOIE_PASS"]=0};

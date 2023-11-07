@@ -9,13 +9,18 @@
 常用的使用场景是检测 IE 浏览器。
 个人认为连 ES6 都不支持的浏览器和 IE 没有区别，因此后文将所有不支持某 ECMAScript 版本的浏览器统称为 IE。
 
+个人观点：使用 Bable 支持 IE 是没有任何意义的行为，越是支持 IE 就会使得 IE 用户不愿意更新，新的技术就无法得到普及。
+
 - [noie.js](#noiejs)
   * [使用方法](#使用方法)
+    - [自动检测](#自动检测)
+    - [手动检测](#手动检测)
   * [版本检测支持列表](#版本检测支持列表)
   * [对某人的回复](#对某人的回复)
 
 ## 使用方法
 
+### 自动检测
 在新版本中，我添加了自动检测功能，如果你需要自动检测，可以加载对应版本的脚本
 ```html
 <script src="/path/to/noie.<version>.js" />
@@ -36,6 +41,19 @@ if (!document['NOIE_PASS']) {
   alert("不支持的浏览器")
 }
 </script>
+```
+### 手动检测
+手动检测仍是支持的，您只需要导入完整的本体文件即可
+```html
+<script src="/path/to/noie.js" />
+```
+
+检测使用的函数请见 [版本检测支持列表](#版本检测支持列表) 的本体函数一项，下面给出一个检测 ES2020 的例子
+
+```javascript
+es2020(function() {
+  alert("不支持的浏览器")
+})
 ```
 
 ## 版本检测支持列表
@@ -97,9 +115,15 @@ if (!document['NOIE_PASS']) {
 
 既然你这么喜欢混淆，**附上一个混淆版本 `noie.obfuscated.js`。**
 
+使用的混淆器是我修改过的，原始项目来自 [这里](https://github.com/lowbyteproductions/JavaScript-Is-Weird)。
+这边非常推荐看一下这个人的 [这个 Youtube 视频](https://www.youtube.com/watch?v=sRWE5tnaxlI)。
+
+我修改过的版本在：[Gist](https://gist.github.com/Lama3L9R/16e84970e357ed77d72b3fb02d7c5fce)
+
 ## 开放源代码许可
 
-本项目采用 Anti-996 开发源代码许可，若您需要使用本项目则您必须遵守该许可。
-版权归属 Lama3L9R (aka lamadaemon) 2023 - Present
+本项目采用 Anti-996 开放源代码许可，若您需要使用本项目则您必须遵守该许可。
+
+版权归属 Qumolama.d (aka lamadaemon) 2023 - Present
 
 如果您希望了解更多反对 996 工作制请访问：https://996.icu

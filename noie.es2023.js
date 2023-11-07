@@ -1,1 +1,1 @@
-;document["NOIE_PASS"]=Boolean([]["findLast"])?1:0
+/*github.com/Lama3L9R/noie.js | opensource under license Anti-996*/;document["NOIE_PASS"]=Boolean([]["findLast"])?1:0
