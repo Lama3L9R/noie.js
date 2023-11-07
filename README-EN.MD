@@ -22,8 +22,6 @@ So I'll call all browser that doesn't support a specified ECMAScript Standard as
   * [noie.obfuscated.js](#what-is-noieobfuscatedjs)
   + [Copyright](#Copyright)
 
-[[TOC]]
-
 ## Why?
 
 Personal opinion: Supporting IE by using Bable is meaning less because it will only let IE users keep using it.
@@ -122,10 +120,13 @@ es2020(function() {
 
 ## What is `noie.obfuscated.js`
 
-There was a random person who just came out and say my script is not opensource and it's obfuscated.
-Its very funny that this guy knows nothing about js.
+> **Translation may different from the Chinese one is because I believe that person can't read English, so in Chinese version it's mainly an explanation to him.**
+> **But in English version is to explains to all readers what is happening. Enjoy this little joke.**
 
-This is not obfuscation! This is minify!
+There was a random person who just came out and said my script is not opensource, and it's **obfuscated**.
+It's very funny that this guy knows nothing about js.
+
+This is **not** obfuscation! **This is minify!**
 
 The reason I didn't provide the non-minified version is I actually don't have!
 I do the minify without using tools like ESBuild. I first edited it in github.dev and then manually minified it.
