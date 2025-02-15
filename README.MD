@@ -118,7 +118,7 @@ es2020(function() {
 **因此我*手动* minify。**
 两三行就搞定的东西，手动 minify 这事很让你感到震惊吗？
 
-既然你这么喜欢混淆，**附上一个混淆版本 `noie.obfuscated.js`。**
+既然你这么喜欢混淆，**附上一个混淆版本 `noie.obfuscated.js`。(OUTDATED!)**
 
 使用的混淆器是我修改过的，原始项目来自 [这里](https://github.com/lowbyteproductions/JavaScript-Is-Weird)。
 这边非常推荐看一下这个人的 [这个 Youtube 视频](https://www.youtube.com/watch?v=sRWE5tnaxlI)。
