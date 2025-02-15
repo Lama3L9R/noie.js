@@ -103,6 +103,10 @@ es2020(function() {
   + 自动检测 `noie.es2024.js`
   + 本体函数 `es2024(onFail?: () => void, onSuccess?: () => void)` 
   + 检测方法 Regex 支持 unicodeSets 模式 ``` /0/v ``` 
+- ES2025
+  + 自动检测 `noie.es2025.js`
+  + 本体函数 `es2025(onFail?: () => void, onSuccess?: () => void)` 
+  + 检测方法 Regex 支持 Inore Case 模式 ``` /0/i ``` 
 
 ## 对某人的回复
 
