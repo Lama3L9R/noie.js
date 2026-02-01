@@ -1,0 +1,1 @@
+/*github.com/Lama3L9R/noie.js | opensource under license Anti-996*/;try{eval('const a = {[Symbol.dispose](){}};using b=a;');document["NOIE_PASS"]=(Boolean(Uint8Array.prototype['toHex'])&&Boolean(globalThis['ShadowRealm'])&&Boolean([]['isTemplateObject'])&&Boolean(globalThis['AsyncIterator']))}catch(err){document["NOIE_PASS"]=0};

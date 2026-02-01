@@ -107,6 +107,13 @@ es2020(function() {
   + 自动检测 `noie.es2025.js`
   + 本体函数 `es2025(onFail?: () => void, onSuccess?: () => void)` 
   + 检测方法 Regex 支持 Inore Case 模式 ``` /0/i ``` 
+- ESNext
+  + 自动检测 `noie.esnext.js`
+  + 本体函数 `N/A`
+  + 检测方法
+    - Stage 3: `using` 关键字 和 `Uint8Array.toHex`
+    - Stage 2.7: `ShadowReleam`
+    - Stage 2: `AsyncIterator`
 
 ## 对某人的回复
 

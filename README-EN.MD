@@ -116,6 +116,13 @@ es2020(function() {
   + Auto-detection version: `noie.es2025.js`
   + Function declaration in full version: `es2025(onFail?: () => void, onSuccess?: () => void)` 
   + Detection method: Ignore Case flag support in Regex ``` /0/i ``` 
+- ESNext
+  + Auto-detection version `noie.esnext.js`
+  + Function declaration in full version: `N/A`
+  + Detection method:
+    - Stage 3: `using` keyword and existance of function `Uint8Array.toHex`
+    - Stage 2.7: existance of class `ShadowReleam`
+    - Stage 2: existance of class `AsyncIterator`
 
 ## What is `noie.obfuscated.js`
 
